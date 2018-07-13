@@ -162,16 +162,16 @@ header.masthead {
   margin: 15px 0;
   text-transform: none; }
 
-#portfolio .portfolio-item {
+#puppies .puppies-item {
   right: 0;
   margin: 0 0 15px; }
-  #portfolio .portfolio-item .portfolio-link {
+  #puppies .puppies-item .puppies-link {
     position: relative;
     display: block;
     max-width: 400px;
     margin: 0 auto;
     cursor: pointer; }
-    #portfolio .portfolio-item .portfolio-link .portfolio-hover {
+    #puppies .puppies-item .puppies-link .puppies-hover {
       position: absolute;
       width: 100%;
       height: 100%;
@@ -180,9 +180,9 @@ header.masthead {
       transition: all ease 0.5s;
       opacity: 0;
       background: rgba(254, 209, 54, 0.9); }
-      #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
+      #puppies .puppies-item .puppies-link .puppies-hover:hover {
         opacity: .2; }
-      #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+      #puppies .puppies-item .puppies-link .puppies-hover .puppies-hover-content {
         font-size: 20px;
         position: absolute;
         top: 50%;
@@ -191,39 +191,39 @@ header.masthead {
         margin-top: -12px;
         text-align: center;
         color: white; }
-        #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
+        #puppies .puppies-item .puppies-link .puppies-hover .puppies-hover-content i {
           margin-top: -12px; }
-        #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
-        #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
+        #puppies .puppies-item .puppies-link .puppies-hover .puppies-hover-content h3,
+        #puppies .puppies-item .puppies-link .puppies-hover .puppies-hover-content h4 {
           margin: 0; }
-  #portfolio .portfolio-item .portfolio-caption {
+  #puppies .puppies-item .puppies-caption {
     max-width: 400px;
     margin: 0 auto;
     padding: 25px;
     text-align: center;
     background-color: white; }
-    #portfolio .portfolio-item .portfolio-caption h4 {
+    #puppies .puppies-item .puppies-caption h4 {
       margin: 0;
       text-transform: none; }
-    #portfolio .portfolio-item .portfolio-caption p {
+    #puppies .puppies-item .puppies-caption p {
       font-size: 16px;
       font-style: italic;
       margin: 0;
       font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
 
-#portfolio * {
+#puppies * {
   z-index: 2; }
 
 @media (min-width: 767px) {
-  #portfolio .portfolio-item {
+  #puppies .puppies-item {
     margin: 0 0 30px; } }
 
-.portfolio-modal .modal-dialog {
+.puppies-modal .modal-dialog {
   max-width: none;
   height: 100%;
   margin: 0; }
 
-.portfolio-modal .modal-content {
+.puppies-modal .modal-content {
   min-height: 100%;
   padding: 100px 0;
   text-align: center;
@@ -232,25 +232,25 @@ header.masthead {
   background-clip: border-box;
   -webkit-box-shadow: none;
   box-shadow: none; }
-  .portfolio-modal .modal-content h2 {
+  .puppies-modal .modal-content h2 {
     font-size: 3em;
     margin-bottom: 15px; }
-  .portfolio-modal .modal-content p {
+  .puppies-modal .modal-content p {
     margin-bottom: 30px; }
-  .portfolio-modal .modal-content p.item-intro {
+  .puppies-modal .modal-content p.item-intro {
     font-size: 16px;
     font-style: italic;
     margin: 20px 0 30px;
     font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
-  .portfolio-modal .modal-content ul.list-inline {
+  .puppies-modal .modal-content ul.list-inline {
     margin-top: 0;
     margin-bottom: 30px; }
-  .portfolio-modal .modal-content img {
+  .puppies-modal .modal-content img {
     margin-bottom: 30px; }
-  .portfolio-modal .modal-content button {
+  .puppies-modal .modal-content button {
     cursor: pointer; }
 
-.portfolio-modal .close-modal {
+.puppies-modal .close-modal {
   position: absolute;
   top: 25px;
   right: 25px;
@@ -258,9 +258,9 @@ header.masthead {
   height: 75px;
   cursor: pointer;
   background-color: transparent; }
-  .portfolio-modal .close-modal:hover {
+  .puppies-modal .close-modal:hover {
     opacity: 0.3; }
-  .portfolio-modal .close-modal .lr {
+  .puppies-modal .close-modal .lr {
     /* Safari and Chrome */
     z-index: 1051;
     width: 1px;
@@ -271,7 +271,7 @@ header.masthead {
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
     background-color: #222222; }
-    .portfolio-modal .close-modal .lr .rl {
+    .puppies-modal .close-modal .lr .rl {
       /* Safari and Chrome */
       z-index: 1052;
       width: 1px;
@@ -282,9 +282,133 @@ header.masthead {
       transform: rotate(90deg);
       background-color: #222222; }
 
-.portfolio-modal .modal-backdrop {
+.puppies-modal .modal-backdrop {
   display: none;
   opacity: 0; }
+
+  #past-litters .past-litters-item {
+    right: 0;
+    margin: 0 0 15px; }
+    #past-litters .past-litters-item .past-litters-link {
+      position: relative;
+      display: block;
+      max-width: 400px;
+      margin: 0 auto;
+      cursor: pointer; }
+      #past-litters .past-litters-item .past-litters-link .past-litters-hover {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        -webkit-transition: all ease 0.5s;
+        -moz-transition: all ease 0.5s;
+        transition: all ease 0.5s;
+        opacity: 0;
+        background: rgba(254, 209, 54, 0.9); }
+        #past-litters .past-litters-item .past-litters-link .past-litters-hover:hover {
+          opacity: .2; }
+        #past-litters .past-litters-item .past-litters-link .past-litters-hover .past-litters-hover-content {
+          font-size: 20px;
+          position: absolute;
+          top: 50%;
+          width: 100%;
+          height: 20px;
+          margin-top: -12px;
+          text-align: center;
+          color: white; }
+          #past-litters .past-litters-item .past-litters-link .past-litters-hover .past-litters-hover-content i {
+            margin-top: -12px; }
+          #past-litters .past-litters-item .past-litters-link .past-litters-hover .past-litters-hover-content h3,
+          #past-litters .past-litters-item .past-litters-link .past-litters-hover .past-litters-hover-content h4 {
+            margin: 0; }
+    #past-litters .past-litters-item .past-litters-caption {
+      max-width: 400px;
+      margin: 0 auto;
+      padding: 25px;
+      text-align: center;
+      background-color: white; }
+      #past-litters .past-litters-item .past-litters-caption h4 {
+        margin: 0;
+        text-transform: none; }
+      #past-litters .past-litters-item .past-litters-caption p {
+        font-size: 16px;
+        font-style: italic;
+        margin: 0;
+        font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+
+  #past-litters * {
+    z-index: 2; }
+
+  @media (min-width: 767px) {
+    #past-litters .past-litters-item {
+      margin: 0 0 30px; } }
+
+  .past-litters-modal .modal-dialog {
+    max-width: none;
+    height: 100%;
+    margin: 0; }
+
+  .past-litters-modal .modal-content {
+    min-height: 100%;
+    padding: 100px 0;
+    text-align: center;
+    border: none;
+    border-radius: 0;
+    background-clip: border-box;
+    -webkit-box-shadow: none;
+    box-shadow: none; }
+    .past-litters-modal .modal-content h2 {
+      font-size: 3em;
+      margin-bottom: 15px; }
+    .past-litters-modal .modal-content p {
+      margin-bottom: 30px; }
+    .past-litters-modal .modal-content p.item-intro {
+      font-size: 16px;
+      font-style: italic;
+      margin: 20px 0 30px;
+      font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+    .past-litters-modal .modal-content ul.list-inline {
+      margin-top: 0;
+      margin-bottom: 30px; }
+    .past-litters-modal .modal-content img {
+      margin-bottom: 30px; }
+    .past-litters-modal .modal-content button {
+      cursor: pointer; }
+
+  .past-litters-modal .close-modal {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    width: 75px;
+    height: 75px;
+    cursor: pointer;
+    background-color: transparent; }
+    .past-litters-modal .close-modal:hover {
+      opacity: 0.3; }
+    .past-litters-modal .close-modal .lr {
+      /* Safari and Chrome */
+      z-index: 1051;
+      width: 1px;
+      height: 75px;
+      margin-left: 35px;
+      /* IE 9 */
+      -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+      transform: rotate(45deg);
+      background-color: #222222; }
+      .past-litters-modal .close-modal .lr .rl {
+        /* Safari and Chrome */
+        z-index: 1052;
+        width: 1px;
+        height: 75px;
+        /* IE 9 */
+        -webkit-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        transform: rotate(90deg);
+        background-color: #222222; }
+
+  .past-litters-modal .modal-backdrop {
+    display: none;
+    opacity: 0; }
 
 .timeline {
   position: relative;
