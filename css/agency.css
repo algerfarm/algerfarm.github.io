@@ -42,7 +42,7 @@ section {
 
 @media (min-width: 768px) {
   section {
-    padding: 150px 0; } }
+    padding: 50px 0; } }
 
 ::-moz-selection {
   background: #fed136;
@@ -722,3 +722,11 @@ ul.social-buttons {
   .btn-xl .badge {
     color: #fed136;
     background-color: white; }
+
+  .cora-image,
+  .penny-image,
+  .woody-image,
+  .rigby-image {
+    width: 500px;
+    padding-bottom: 20px;
+  }
